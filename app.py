@@ -17,7 +17,7 @@ def set_background(image_file):
     page_bg = f"""
     <style>
     .stApp {{
-        background: url("data:image/jpg;base64,{encoded_bg}") no-repeat center center fixed;
+        background: url("data:image/jpg;base64,{encoded_bg}") no-repeat center cent                                                                                                                                                                                                                                           er fixed;
         background-size: cover;
     }}
     </style>
@@ -33,9 +33,10 @@ st.sidebar.markdown("<h2>智能体导航</h2>", unsafe_allow_html=True)
 
 # ========== 定义智能体字典（名称: URL） ==========
 agents = {
-    "中航合规AI工具": "https://www.coze.cn/store/agent/7478227514134085684?bot_id=true&bid=6fmj4vir43g00",
-    "中航证券合规部门法规查询智能体": "https://www.coze.cn/store/agent/7481082098489524259?bot_id=true&bid=6fmj5531o8016",
-    "中航证券政府债券承销团": "https://www.coze.cn/store/agent/7477595271347060745?bot_id=true&bid=6fmj5e47o1g0c"
+    "中航合规AI工具": "https://www.coze.cn/s/oy4zjwmd9qQ/",
+    "中航证券合规部门法规查询智能体": "https://www.coze.cn/s/Az-MSs--WgE/",
+    "中航证券政府债券承销团": "https://www.coze.cn/s/wb3B9ds9pPw/",
+    "中航回测数据查询":"https://www.coze.cn/s/Mp1OXd3ViNs/"
 }
 
 # ========== 侧边栏单选按钮，选择要查看的智能体 ==========
